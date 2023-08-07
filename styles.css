@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%; /* Set the height of the body to 100% */
+  margin: 0; /* Remove default margin to avoid extra spacing */
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #d5e1ef;
+  height: 100vh;
+  display: flex; /* Use flexbox to align the container and its contents */
+  justify-content: center; /* Horizontally center the container */
+  align-items: center; /* Vertically center the container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* You can adjust the values for different shadow effects */
+  /* background-color: #303740; */
+}
+
+.qr-component {
+  background-color: white;
+  max-width: 250px;
+  display: flex; /* Use flexbox to align the container and its contents */
+  flex-direction: column;
+  justify-content: center; /* Horizontally center the container */
+  align-items: center; /* Vertically center the container */
+  border-radius: 5%;
+}
+
+.qr-component img {
+  max-width: 90%;
+  margin-top: 10px;
+  /* Add round edges to the image */
+  border-radius: 5%; /* Use a value of 50% to make the image fully circular */
+}
+
+.img-box {
+  display: flex; /* Use flexbox to center the image horizontally and vertically */
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image */
+}
+
+.heading {
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.text {
+  margin: 10px 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 9pt;
+  /*color: #303740; 
+  color: #455d6d;
+  color: #7696ab;
+  color: hsl(212, 45%, 89%);*/
+  color: hsl(220, 15%, 55%);
+}
